@@ -6,7 +6,7 @@
 
 .card-image-container {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 100%;
 }
 
 .card-image {
@@ -17,13 +17,10 @@
   height: 100%;
 }
 
-.card-content {
-  padding: 1rem;
-}
-
 .card-type {
   color: #45D0A1;
   font-size: 0.875rem;
+  position: relative;
 }
 
 .card-title {

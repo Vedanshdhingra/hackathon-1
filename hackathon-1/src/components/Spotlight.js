@@ -6,7 +6,7 @@ const Spotlight = ({ title, tags, author, imageUrl }) => {
     <div className="spotlight">
       <h2 className="spotlight-header">Spotlight</h2>
       <div className="spotlight-card">
-        <div className="spotlight-image"></div>
+        <div className="spotlight-image"><img src="https://i.pinimg.com/736x/ce/ac/c5/ceacc5ea35020664083612b6f0b0391e.jpg" width="555" height="500"></img></div>
         <div className="spotlight-content">
           <div className="spotlight-tags">
             {tags.map((tag, index) => (
